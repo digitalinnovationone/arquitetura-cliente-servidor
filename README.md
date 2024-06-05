@@ -2,7 +2,7 @@
 
 ## Visão geral
 
-Este curso apresenta os fundamentos da Web e da arquitetura cliente-servidor. Você aprenderá sobre os princípios da Internet, os componentes de um sistema web, as diferentes camadas da arquitetura cliente-servidor e como elas se comunicam. Além disso, você terá a oportunidade de praticar o desenvolvimento de uma aplicação web simples.
+Repositório com os fundamentos da Web e da arquitetura cliente-servidor. Você aprenderá sobre os princípios da Internet, os componentes de um sistema web, as diferentes camadas da arquitetura cliente-servidor e como elas se comunicam. Além disso, você terá a oportunidade de praticar o desenvolvimento de uma aplicação web simples.
 
 ## 1. Introdução à Web
 
