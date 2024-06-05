@@ -30,7 +30,7 @@ A arquitetura cliente-servidor é uma forma de organizar sistemas de software on
 
 ### Comunicação
 - **Protocolo HTTP**: Usado para comunicação entre clientes e servidores web.
-- **Web Services**: Permitem comunicação entre plataformas diferentes usando protocolos padrão como HTTP.
+- **Web Services e APIs**: Permitem comunicação entre plataformas diferentes usando protocolos padrão como HTTP.
 - **Sockets de Rede**: Permitem comunicação direta entre clientes e servidores para aplicações em tempo real.
 
 ### Vantagens
@@ -39,6 +39,10 @@ A arquitetura cliente-servidor é uma forma de organizar sistemas de software on
 - **Segurança**
 - **Facilidade de manutenção**
 - **Flexibilidade**
+
+![image](https://github.com/digitalinnovationone/arquitetura-cliente-servidor/assets/730492/97f83f75-e23f-46b0-8f45-714be01ba0dd)
+
+Fonte: https://www.g2.com/articles/what-is-an-api#definition
 
 ## 3. Protocolos de Comunicação na Web
 
@@ -61,6 +65,10 @@ Interfaces de programação que permitem a comunicação entre diferentes compon
 - **Reutilização de código**
 - **Integração**
 - **Escalabilidade**
+
+![image](https://github.com/digitalinnovationone/arquitetura-cliente-servidor/assets/730492/914f6c70-7e94-41d7-93df-40506113c007)
+
+Fonte: https://www.g2.com/articles/what-is-an-api#working
 
 ### REST (Representational State Transfer)
 Estilo arquitetural para sistemas distribuídos, incluindo APIs, usando HTTP.
