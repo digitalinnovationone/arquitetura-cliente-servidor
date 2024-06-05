@@ -116,5 +116,5 @@ sequenceDiagram
     Servidor (API REST da OpenAI) -->> Cliente (Postman): Resposta com transcrição
     Cliente (Postman) ->> Servidor (API REST da OpenAI): POST /v1/chat/completions
     Servidor (API REST da OpenAI) -->> Cliente (Postman): Resposta do ChatGPT
-    Cliente ->> Usuario: Resposta do assistente virtual
+    Cliente (Postman) ->> Usuario: Resposta do assistente virtual
 ```
