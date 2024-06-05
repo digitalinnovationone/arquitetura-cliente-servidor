@@ -109,12 +109,12 @@ Vamos criar um assistente virtual acionado por voz utilizando a [API REST da Ope
 ```mermaid
 sequenceDiagram
     participant Usuario
-    participant Cliente
+    participant Cliente (Postman)
     participant Servidor (API REST da OpenAI)
-    Usuario ->> Cliente: Envia áudio
-    Cliente ->> Servidor (API REST da OpenAI): POST /v1/audio/transcriptions
-    Servidor (API REST da OpenAI) -->> Cliente: Resposta com transcrição
-    Cliente ->> Servidor (API REST da OpenAI): POST /v1/chat/completions
-    Servidor (API REST da OpenAI) -->> Cliente: Resposta do ChatGPT
+    Usuario ->> Cliente (Postman): Envia áudio
+    Cliente (Postman) ->> Servidor (API REST da OpenAI): POST /v1/audio/transcriptions
+    Servidor (API REST da OpenAI) -->> Cliente (Postman): Resposta com transcrição
+    Cliente (Postman) ->> Servidor (API REST da OpenAI): POST /v1/chat/completions
+    Servidor (API REST da OpenAI) -->> Cliente (Postman): Resposta do ChatGPT
     Cliente ->> Usuario: Resposta do assistente virtual
 ```
